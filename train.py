@@ -137,7 +137,7 @@ if __name__ == "__main__":
 
     trainer.train()
     
-    trainer.save_model('model/saved_model')
+    trainer.save_model('model/final_model')
 
     trainer.evaluate(eval_dataset=test_tokenized)
 
